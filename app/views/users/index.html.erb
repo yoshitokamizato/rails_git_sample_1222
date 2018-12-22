@@ -1,0 +1,11 @@
+<h1>Hello!!!</h1>
+<h2><%= @omikuji %></h2>
+<% score = 70 %>
+<% if score > 80 %>
+  <h2>合格！！！！</h2>
+<% else %>
+  <h2>おしい！！！！</h2>
+<% end %>
+<% @users.each do |user| %>
+  <h2><%= user %></h2>
+<% end %>
